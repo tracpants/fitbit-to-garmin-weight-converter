@@ -15,7 +15,7 @@ This tool helps you migrate your historical weight data from Fitbit to Garmin Co
 - Optional weight conversion from pounds to kilograms
 - Sorts data chronologically
 - Includes BMI and Fat percentage data
-- Formats dates to Garmin's required format (DD-MM-YYYY)
+- Formats dates (DD-MM-YYYY)
 
 ## Usage
 
@@ -54,14 +54,20 @@ fitbit-to-garmin-weight-converter/
 ## Importing to Garmin Connect
 
 1. Log in to Garmin Connect
-2. Go to Health Stats
-3. Select Weight
-4. Click the gear icon (⚙️)
-5. Select "Import From File"
-6. Choose the generated CSV file
+2. Select the cloud in the top right
+3. Select "Import Data"
+4. Upload the generated CSV file
+5. Select "Import Data"
+6. Select the units of measure that match what you used with Fitbit
+7. Select Continue. 
 
 ## Notes
 
 - Make sure your weight data is in the correct format before importing to Garmin Connect
 - Back up your Garmin Connect data before importing new data
 - The script will ignore any entries from Withings source to avoid duplicates
+
+## Reference 
+
+- https://support.garmin.com/en-AU/?faq=HfJ4xPchdD3cmZ2qtDpOR8
+- https://gist.github.com/betandr/e27a91dca6b84ba55ae26fda3b2ba43c
