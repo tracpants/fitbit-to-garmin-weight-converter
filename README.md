@@ -65,7 +65,6 @@ fitbit-to-garmin-weight-converter/
 
 - Make sure your weight data is in the correct format before importing to Garmin Connect
 - Back up your Garmin Connect data before importing new data
-- The script will ignore any entries from Withings source to avoid duplicates
 
 ## Reference 
 
