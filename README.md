@@ -70,3 +70,7 @@ fitbit-to-garmin-weight-converter/
 
 - https://support.garmin.com/en-AU/?faq=HfJ4xPchdD3cmZ2qtDpOR8
 - https://gist.github.com/betandr/e27a91dca6b84ba55ae26fda3b2ba43c
+
+## Development Note
+
+This project was developed with the assistance of AI (Claude) to help with code structure, formatting, and documentation. While the AI provided guidance and suggestions, all code has been verified and tested to ensure proper functionality.
