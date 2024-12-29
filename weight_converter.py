@@ -30,7 +30,7 @@ def parse_json_file(file_path, convert_to_kg):
 
                 # Convert date to MM-DD-YYYY format
                 try:
-                    date = datetime.strptime(date_raw, "%m/%d/%y").strftime("%m-%d-%Y")
+                    date = datetime.strptime(date_raw, "%m/%d/%y").strftime("%m/%d/%Y")
                 except ValueError:
                     print(f"Invalid date format in {file_path}: {date_raw}")
                     continue
@@ -56,7 +56,7 @@ def parse_json_file(file_path, convert_to_kg):
 
 def write_to_csv(output_csv, data_entries):
     """Write data entries to a CSV file."""
-    data_entries.sort(key=lambda x: datetime.strptime(x["Date"], "%m-%d-%Y"))
+    data_entries.sort(key=lambda x: datetime.strptime(x["Date"], "%m/%d/%Y"))
 
     with open(output_csv, mode="w", newline="", encoding="utf-8") as csv_file:
         # Write the "Body" line first
